@@ -32,7 +32,7 @@ public class Principal {
         List<DadosTemporada> temporadas = new ArrayList<>();
 
         for(int i = 1; i<=dados.totalTemporadas(); i++) {
-            json = consumo.obterDados("https://www.omdbapi.com/?t=gilmore+girls&season=" + i + "&apikey=6585022c");
+            json = consumo.obterDados(ENDERECO + nomeSerie.replace(" ", "+") + "&season=" + i + API_KEY);
             DadosTemporada dadosTemporada = conversor.obterDados(json, DadosTemporada.class);
                 temporadas.add(dadosTemporada);
 
