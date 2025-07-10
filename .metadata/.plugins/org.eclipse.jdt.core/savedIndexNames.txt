@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+E:\Desenvolvimento Seguro\Projeto de Extensão VII\3257-java-screenmatch-com-spring\.metadata\.plugins\org.eclipse.jdt.core
+1067094681.index
+1865797976.index
+1023275029.index
